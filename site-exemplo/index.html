@@ -9,6 +9,10 @@
     <h1>Olá, Mundo</h1>
     <hr>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, eos non? Laborum non corporis voluptatem? Fugiat cupiditate aspernatur voluptatem repellendus, vero, nisi provident, eveniet expedita quos mollitia inventore perferendis? Maiores?</p>
-    <img src="C:\Users\cacae\OneDrive\Documentos\Meus-Projetos\Curso-Git\site-exemplo\imagens\imagen1.jpeg" alt="Minha imagen de perfil">
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens\imagen1.jpeg" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens\imagen1.jpeg" type="image/png">
+        <img src="imagens\imagen1.jpeg" alt="Imagem flexível">
+    </picture>
 </body>
 </html>
